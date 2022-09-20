@@ -1,1 +1,178 @@
-/*# sourceMappingURL=front.css.map */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body nav {
+  background-color: rgb(37, 60, 110);
+  color: white;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 26px;
+}
+body nav a {
+  text-decoration: none;
+}
+body nav .james {
+  margin-left: 100px;
+  margin-right: 800px;
+  font-size: 1.3rem;
+}
+body nav .login {
+  margin-left: 10px;
+}
+body nav .devlink:hover {
+  color: lightblue;
+  transition-delay: 0.15s;
+}
+body header {
+  display: flex;
+  background-image: url("https://i.ibb.co/q59xn5r/82fcd3-47a465bb9c6f4b52a0cc83f281806af8-mv2.jpg");
+  background-position: center;
+  height: 685px;
+  width: 100%;
+}
+body header .headertopic {
+  background-color: white;
+  height: 250px;
+  width: 830px;
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  margin-left: 545px;
+  align-items: center;
+  justify-content: space-around;
+}
+body header .headertopic .developing {
+  font-size: 1.3rem;
+}
+body header .headertopic .achieving {
+  font-size: 4rem;
+}
+body header .headertopic button {
+  background-color: white;
+  border: solid 1px black;
+  width: 230px;
+  height: 50px;
+}
+body header .headertopic button a {
+  text-decoration: none;
+  font-weight: 700;
+}
+body header .headertopic button:hover {
+  transition-delay: 0.15s;
+  background-color: rgb(50, 80, 145);
+  color: white;
+}
+body main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 720px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+body main .maincontent {
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  height: 580px;
+  width: 580px;
+  justify-content: space-around;
+  align-items: center;
+}
+body main .maincontent .firstword {
+  font-size: 3rem;
+}
+body main .maincontent .paragraph {
+  margin-left: 122px;
+  margin-right: 122px;
+  text-align: center;
+}
+body main .maincontent button {
+  border: none;
+  width: 180px;
+  height: 50px;
+  background-color: rgb(50, 80, 145);
+  color: white;
+}
+body main .maincontent button a {
+  font-weight: 700;
+  text-decoration: none;
+}
+body main .maincontent button:hover {
+  border: 1px solid black;
+  background-color: white;
+  color: rgb(50, 80, 145);
+  transition-delay: 0.15s;
+}
+body section {
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://i.ibb.co/QP4h9Vn/82fcd3-96376843bac9407bb5b50891b78b6210-mv2.jpg");
+  background-position: fixed;
+  height: 685px;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+body section .sectiondiv {
+  background-color: rgba(202, 229, 248, 0.5);
+  display: flex;
+  flex-direction: column;
+  height: 685px;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+body section .sectiondiv .firstword {
+  font-size: 3rem;
+}
+body section .sectiondiv .paragraph {
+  margin-left: 620px;
+  margin-right: 620px;
+}
+body section .sectiondiv button {
+  background-color: white;
+  border: solid 1px black;
+  width: 180px;
+  height: 50px;
+}
+body section .sectiondiv button a {
+  text-decoration: none;
+  font-weight: 700;
+}
+body section .sectiondiv button:hover {
+  transition-delay: 0.15s;
+  background-color: rgb(50, 80, 145);
+  color: white;
+}
+body article {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+body article .clients {
+  font-size: 3rem;
+}
+body article .klientai {
+  font-size: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body article .klientai .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  height: 200px;
+  width: 430px;
+}/*# sourceMappingURL=front.css.map */

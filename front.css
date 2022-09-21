@@ -2,7 +2,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 body nav {
-  background-color: rgb(37, 60, 110);
+  background-color: rgb(22, 40, 78);
   color: white;
   height: 70px;
   width: 100%;
@@ -29,7 +29,9 @@ body nav .devlink:hover {
 }
 body header {
   display: flex;
-  background-image: url("https://i.ibb.co/q59xn5r/82fcd3-47a465bb9c6f4b52a0cc83f281806af8-mv2.jpg");
+  background-image: url("https://i.postimg.cc/QCLJLyKr/82fcd3-47a465bb9c6f4b52a0cc83f281806af8-mv2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
   background-position: center;
   height: 685px;
   width: 100%;
@@ -175,4 +177,141 @@ body article .klientai .logo {
   border: 1px solid gray;
   height: 200px;
   width: 430px;
+}
+body aside {
+  background-color: rgb(240, 235, 235);
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body aside .firstword {
+  font-size: 3rem;
+  margin-bottom: 100px;
+}
+body aside .sliderone {
+  margin-top: 70px;
+}
+body aside .slidertwo {
+  margin-bottom: 100px;
+}
+body summary {
+  background-color: rgb(64, 90, 148);
+  color: white;
+  height: 1000px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+body summary .firstword {
+  font-size: 3rem;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+body summary .kontaktai {
+  height: 400px;
+  width: 920px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body summary .kontaktai .suvedimai1 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+body summary .kontaktai .suvedimai1 .keturi {
+  width: 435px;
+}
+body summary .kontaktai .suvedimai1 .keturi .pirmas {
+  border: 0;
+  border-bottom: 1px outset lightgray;
+  background-color: rgb(64, 90, 148);
+  width: 435px;
+}
+body summary .kontaktai .suvedimai1 .keturi .raudonas {
+  border: 0;
+  border-bottom: 1px outset red;
+  background-color: rgb(64, 90, 148);
+  width: 435px;
+}
+body summary .kontaktai .suvedimai2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+body summary .kontaktai .suvedimai2 .keturi {
+  width: 435px;
+}
+body summary .kontaktai .suvedimai2 .keturi .pirmas {
+  border: 0;
+  border-bottom: 1px outset lightgray;
+  background-color: rgb(64, 90, 148);
+  width: 435px;
+}
+body summary .kontaktai .suvedimai2 .keturi .raudonas {
+  border: 0;
+  border-bottom: 1px outset red;
+  background-color: rgb(64, 90, 148);
+  width: 435px;
+}
+body summary .kontaktai .suvedimai3 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 75px;
+}
+body summary .kontaktai .suvedimai3 .penki {
+  width: 695px;
+}
+body summary .kontaktai .suvedimai3 .penki .msg {
+  border: 0;
+  border-bottom: 1px outset red;
+  background-color: rgb(64, 90, 148);
+  width: 695px;
+}
+body summary .kontaktai .suvedimai3 button {
+  background-color: white;
+  border: solid 1px black;
+  width: 180px;
+  height: 50px;
+}
+body summary .kontaktai .suvedimai3 button a {
+  text-decoration: none;
+  font-weight: 700;
+}
+body summary .kontaktai .suvedimai3 button:hover {
+  transition-delay: 0.15s;
+  background-color: rgb(50, 80, 145);
+  color: white;
+}
+body summary .kontaktai .image {
+  margin-top: 170px;
+}
+body footer {
+  background-color: rgb(22, 40, 78);
+  color: white;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+body footer .address {
+  display: flex;
+  flex-direction: column;
+}
+body footer .address .firstword {
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+body footer .address .twitt {
+  margin-bottom: 50px;
 }/*# sourceMappingURL=front.css.map */

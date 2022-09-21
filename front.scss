@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 
     nav {
-        background-color: rgb(37, 60, 110);
+        background-color: rgb(22, 40, 78);
         color: white;
 
         height: 70px;
@@ -39,7 +39,9 @@ body {
     header {
         display: flex;
 
-        background-image: url('https://i.ibb.co/q59xn5r/82fcd3-47a465bb9c6f4b52a0cc83f281806af8-mv2.jpg');
+        background-image: url('https://i.postimg.cc/QCLJLyKr/82fcd3-47a465bb9c6f4b52a0cc83f281806af8-mv2.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
         background-position: center;
 
         height: 685px;
@@ -234,6 +236,176 @@ body {
     }
     
     aside {
+        background-color: rgb(240, 235, 235);
+        height: 500px;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         
+        .firstword {
+            font-size: 3rem;
+            margin-bottom: 100px;
+        }
+
+        .sliderone {
+           margin-top: 70px;
+        }
+
+        .slidertwo {
+            margin-bottom: 100px;
+        }
+    }
+
+    summary {
+        background-color: rgb(64, 90, 148);
+        color: white;
+
+        height: 1000px;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+
+        flex-wrap: wrap;
+
+        align-items: center;
+        
+        .firstword {
+            font-size: 3rem;
+            margin-top: 70px;
+            margin-bottom: 70px;
+        }
+
+        .kontaktai {
+            height: 400px;
+            width: 920px;
+
+            display: flex;
+            flex-direction: column;
+
+            align-items: center;
+        
+            .suvedimai1 {
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                margin-bottom: 30px;
+                
+                .keturi {
+                    width: 435px;
+                
+                    .pirmas {
+                        border: 0;
+                        border-bottom: 1px outset lightgray;
+                        background-color: rgb(64, 90, 148);
+                        width: 435px;
+                    }
+
+                    .raudonas {
+                        border: 0;
+                        border-bottom: 1px outset red;
+                        background-color: rgb(64, 90, 148);
+                        width: 435px;
+                    }
+                }
+            }
+
+            .suvedimai2 {
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                margin-bottom: 30px;
+
+                .keturi {
+                    width: 435px;
+
+                    .pirmas {
+                        border: 0;
+                        border-bottom: 1px outset lightgray;
+                        background-color: rgb(64, 90, 148);
+                        width: 435px;
+                    }
+
+                        .raudonas {
+                        border: 0;
+                        border-bottom: 1px outset red;
+                        background-color: rgb(64, 90, 148);
+                        width: 435px;
+                    }
+                }
+            }
+
+            .suvedimai3 {
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                margin-top: 75px;
+
+                .penki {
+                    width: 695px;
+
+                    .msg {
+                        border: 0;
+                        border-bottom: 1px outset red;
+                        background-color: rgb(64, 90, 148);
+                        width: 695px;
+                    }
+                }
+
+                button {
+                    background-color: white;
+                    border: solid 1px black;
+                    width: 180px;
+                    height: 50px;
+    
+                    a {
+                        text-decoration: none;
+                        font-weight: 700;
+                    }
+                }
+    
+                button:hover {
+                    transition-delay: 0.15s;
+                    background-color: rgb(50, 80, 145);
+                    color: white;
+                }
+            }
+        
+            .image {
+                margin-top: 170px;
+            }   
+        }
+    }
+
+    footer {
+        background-color: rgb(22, 40, 78);
+        color: white;
+
+        height: 400px;
+        width: 100%;
+
+        display: flex;
+        flex-direction: row;
+
+        justify-content: space-around;
+
+        .address {
+            display: flex;
+            flex-direction: column;
+
+            .firstword {
+                font-size: 1.5rem;
+                text-decoration: none;
+
+                margin-top: 50px;
+                margin-bottom: 20px;
+            }
+
+            .twitt {
+                margin-bottom: 50px;
+            }
+        }
     }
 }

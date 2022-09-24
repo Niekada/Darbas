@@ -1,0 +1,296 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    nav {
+        position: fixed;
+        background-color: rgb(22, 40, 78);
+        color: white;
+
+        height: 70px;
+        width: 100%;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+        align-items: center;
+
+        gap: 26px;
+
+        a {
+            text-decoration: none;
+        }
+
+        .james {
+            margin-left: 100px;
+            margin-right: 800px;
+            font-size: 1.3rem;
+        }
+
+        .login {
+            margin-left: 10px;
+        }
+
+        .devlink:hover {
+            color: lightblue;
+            transition-delay: 0.15s;
+        }
+    }
+
+    main {
+        height: 1000px;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        .firstword {
+            font-size: 3rem;
+        }
+
+        .plans {
+            height: 600px;
+            width: 100%;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            gap: 50px;
+
+            .boxes {
+                display: flex;
+                flex-direction: column;
+
+                
+
+                .boxa {
+                    height: 400px;
+                    width: 465px;
+
+                    display: flex;
+                    flex-direction: column;
+
+                    align-items: center;
+                    justify-content: space-evenly;
+
+                    border: 1px solid lightgray;
+
+                    .one {
+                        font-size: 1.5rem;
+                    }
+
+                    .two {
+                        font-size: 4.2rem;
+                        color: rgb(22, 40, 78);
+                    }
+
+                    button {
+                        border: none;
+
+                        width: 300px;
+                        height: 50px;
+
+                        background-color: rgb(22, 40, 78);
+                        color: white;
+    
+                        a {
+                            font-weight: 700;
+                            text-decoration: none;
+                        }
+                    }
+
+                    button:hover {
+                        background-color: rgb(36, 61, 114);
+                        cursor: pointer;
+                    }
+                }
+
+                .boxb {
+                    height: 250px;
+                    width: 465px;
+
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    border: 1px solid lightgray;
+
+                    gap: 20px;
+                    padding-top: 20px;
+                }
+
+                .boxc {
+                    background-color: rgb(224, 238, 247);
+                }
+            }
+        }
+    }
+
+    summary {
+        background-color: rgb(64, 90, 148);
+        color: white;
+
+        height: 1000px;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+
+        flex-wrap: wrap;
+
+        align-items: center;
+        
+        .firstword {
+            font-size: 3rem;
+            margin-top: 70px;
+            margin-bottom: 70px;
+        }
+
+        .kontaktai {
+            height: 400px;
+            width: 920px;
+
+            display: flex;
+            flex-direction: column;
+
+            align-items: center;
+        
+            .suvedimai1 {
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                margin-bottom: 30px;
+                
+                .keturi {
+                    width: 435px;
+                
+                    .pirmas {
+                        border: 0;
+                        border-bottom: 1px outset lightgray;
+                        background-color: rgb(64, 90, 148);
+                        width: 435px;
+                    }
+
+                    .raudonas {
+                        border: 0;
+                        border-bottom: 1px outset red;
+                        background-color: rgb(64, 90, 148);
+                        width: 435px;
+                    }
+                }
+            }
+
+            .suvedimai2 {
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                margin-bottom: 30px;
+
+                .keturi {
+                    width: 435px;
+
+                    .pirmas {
+                        border: 0;
+                        border-bottom: 1px outset lightgray;
+                        background-color: rgb(64, 90, 148);
+                        width: 435px;
+                    }
+
+                        .raudonas {
+                        border: 0;
+                        border-bottom: 1px outset red;
+                        background-color: rgb(64, 90, 148);
+                        width: 435px;
+                    }
+                }
+            }
+
+            .suvedimai3 {
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                margin-top: 75px;
+
+                .penki {
+                    width: 695px;
+
+                    .msg {
+                        border: 0;
+                        border-bottom: 1px outset red;
+                        background-color: rgb(64, 90, 148);
+                        width: 695px;
+                    }
+                }
+
+                button {
+                    background-color: white;
+                    border: solid 1px black;
+                    width: 180px;
+                    height: 50px;
+    
+                    a {
+                        text-decoration: none;
+                        font-weight: 700;
+                    }
+                }
+    
+                button:hover {
+                    transition-delay: 0.15s;
+                    background-color: rgb(50, 80, 145);
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        
+            .image {
+                margin-top: 170px;
+            }   
+        }
+    }
+
+    footer {
+        background-color: rgb(22, 40, 78);
+        color: white;
+
+        height: 400px;
+        width: 100%;
+
+        display: flex;
+        flex-direction: row;
+
+        justify-content: space-around;
+
+        .address {
+            display: flex;
+            flex-direction: column;
+            
+            a {
+                text-decoration: none;
+            }
+            
+            .menu {
+                margin-bottom: 10px;
+            }
+            
+            .menu:hover {
+                color: lightblue;
+            }
+
+            .firstword {
+                font-size: 1.5rem;
+                text-decoration: none;
+
+                margin-top: 50px;
+                margin-bottom: 20px;
+            }
+
+            .twitt {
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
